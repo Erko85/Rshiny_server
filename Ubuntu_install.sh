@@ -10,4 +10,10 @@ sudo apt-get install r-base r-base-dev
 sudo apt-get install gdebi-core
 wget https://download3.rstudio.org/ubuntu-12.04/x86_64/shiny-server-1.4.2.786-amd64.deb
 sudo gdebi shiny-server-1.4.2.786-amd64.deb
+#sudo usermod -aG sudo shiny
+#sudo su shiny
+#sudo stop shiny-server
+#sudo start shiny-server
+#sudo vim /etc/shiny-server/shiny-server.conf
+#change 
 
